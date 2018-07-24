@@ -3,7 +3,7 @@ markdown:            kramdown
 highlighter:         rouge
 
 # Gems (for Jekyll 3.0)
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 # Permalinks
 #
@@ -11,26 +11,26 @@ gems: [jekyll-paginate]
 permalink:           pretty
 
 # Setup
-title:               Naringu
-tagline:             'A Hacker like jekyll theme'
-description:         'oonlab is crafted with <3 by ariestiyansyah.'
+title:               NEC's House
+tagline:             'hack ur life'
+description:         'Geek | Crack'
 url:                 http://naringu.oonlab.com
 baseurl:             /
 paginate:            7
 
 # About/contact
 author:
-  name:              Rizky Ariestiyansyah
-  url:               https://twitter.com/ariestiyansyah
-  email:             ariestiyansyah.rizky@gmail.com
+  name:              Nancy thE Cat
+  url:               https://twitter.com/nec666
+  email:             chinano1cnm@gmail.com
 
 # Custom vars
 version:             2.0
 
 # Social Media
-github:				http://github.com/ariestiyansyah
-twitter:			http://twitter.com/ariestiyansyah
-disqus:             testnaringu
+github:				http://github.com/nec2017
+twitter:			http://twitter.com/nec666
+disqus:             test
 
 # Theme Author (Please don't edit this line cause of MIT LICENSE rules)
 theme:
