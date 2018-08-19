@@ -15,7 +15,7 @@ title:               NEC's House
 tagline:             'hack ur life'
 description:         'Geek | Crack'
 url:                 https://nec2017.github.io
-baseurl:             "/"
+baseurl:             "https://nec2017.github.io"
 paginate:            7
 
 # About/contact
