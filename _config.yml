@@ -14,14 +14,14 @@ permalink:           pretty
 title:               NEC's House
 tagline:             'hack ur life'
 description:         'Geek | Crack'
-url:                 http://naringu.oonlab.com
+url:                 https://nec2017.github.io
 baseurl:             /
 paginate:            7
 
 # About/contact
 author:
   name:              Nancy thE Cat
-  url:               https://twitter.com/nec666
+  url:               https://weibo.com/u/5758919434
   email:             chinano1cnm@gmail.com
 
 # Custom vars
