@@ -2,11 +2,15 @@
 layout: post
 title: 第一篇博客，小鸡冻
 tags:  Web
+categories:
+- web
 ---
 
 ## 既然是第一篇博客，那就讲讲是怎么搭建的吧
 ### Ⅰ 总
-我想明眼人更确切地说coders看到这个域名直接就能知道：这是一个GitHub page静态页面，也就是说没有数据库接口等额外的配置，总体上是<strong>很容易</strong>配置的，加上博主是个拿来主义者 ——主题模板什么的从不动手写（逃，希望看到这篇文章的人不会被我唠唠叨叨的”裹脚布“吓到。作为一个技术水平有限的coder我在这个博客搭建过程中遇到过<strong>几个坑</strong>，这也是我写这篇文章的原因之一，如果对gayhub（雾，GitHub）有一点点基础并且jekll或相关环境本身不会有大变动的话相信大家都能成功搭一个自己的<strong>纯净</strong>的静态博客。
+我想明眼人更确切地说coders看到这个域名直接就能知道：这是一个GitHub page静态页面，也就是说没有数据库接口等额外的配置，总体上是<strong>很容易</strong>配置的，加上博主是个拿来主义者 ——主题模板什么的从不动手写（逃，希望看到这篇文章的人不会被我唠唠叨叨的”裹脚布“吓到。
+
+作为一个技术水平有限的coder我在这个博客搭建过程中遇到过<strong>几个坑</strong>，这也是我写这篇文章的原因之一，如果对gayhub（雾，GitHub）有一点点基础并且jekll或相关环境本身不会有大变动的话相信大家都能成功搭一个自己的<strong>纯净</strong>的静态博客。
 
 如果对GitHub的<strong>git基本操作</strong>不够熟悉的话，建议聪明的你花10-30分钟看下[基础教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)，这里我分享的廖雪峰的。
 
@@ -66,7 +70,7 @@ jekyll serve
 
 首先我们需要在GitHub新建一个仓库（repo），命名方式为：你的用户名.github.io。
 
-然后我们在本地git push过去就吼啦，就可以打开我们的gGitHub分配给我们的链接了。
+然后我们在本地git push过去就吼啦，就可以打开我们的GitHub分配给我们的链接了。
 
 GitHub学生包可以实现私有仓库，不知道我还能苟几年。。。
 
@@ -77,7 +81,7 @@ GitHub学生包可以实现私有仓库，不知道我还能苟几年。。。
 * Google analytics：需要自备梯子，进入[官网](https://analytics.google.com)注册账号先，获得了UA码（for free，但不知道谷歌他怎么用你数据，对这些大公司反正我是不会仔细研究那些“我同意“同意的具体是啥的）之后，打开我们的`_includes/analytics.html`，在最后（但在</script>前）添加两句话：
 
   ```yaml
-    ga('create', 'UA-124412763-1', 'auto');
+    ga('create', 'UA-你获得的码', 'auto');
     ga('send', 'pageview');
   ```
 

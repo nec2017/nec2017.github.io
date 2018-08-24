@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: test
 title: 分类
 permalink: /categories/
 tags: [Categories]
@@ -13,11 +13,12 @@ description: "An archive of posts sorted by categories."
 {% endfor %}
 {% else %}
 {% for tag in tags_list %}
-<li><a href="#{{ tag[0] }}">{{ tag[0] | capitalize }} <span>{{ tag[1].size }}</span></a></li>
+<code class="highlighter-rouge"><tr><span style="line-height:30px;"><a href="#{{ tag[0] }}"><font face="Microsoft YaHei" color="black">{{ tag[0] | capitalize }} </font></a><sup>{{ tag[1].size }}</sup></span></tr></code>
 {% endfor %}
 {% endif %}
 {% assign tags_list = nil %}
 </ul>
+<hr />
 {% for tag in site.categories %}
 <h2 id="{{ tag[0] }}">{{ tag[0] | capitalize }}</h2>
 <ul class="post-list">
