@@ -11,7 +11,7 @@ tags:
 
 ## 写这篇文章时回忆的过程中真是扎心，你可以想象一个慢性子+菜鸡属性的人1个星期刷了至少5次net hunter的痛苦吗。希望米娜桑入坑前避免重蹈我的覆辙。
 
-### Ⅰ必看
+### Ⅰ 必看
 
 我掉进去的第一个坑就是netthunter对硬件和系统的要求上，求求你们刷机前先看看这个表格（[原链接](https://github.com/offensive-security/kali-nethunter/wiki)）。
 
