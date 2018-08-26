@@ -17,9 +17,9 @@ tags:
 
 ### Ⅰ 必看
 
-本文以<strong>Nexus5X</strong>为例（有一个很好的[英文指导视频](https://www.youtube.com/watch?v=XFmvn7_R9fs)在油管上，[官方文档](https://github.com/offensive-security/kali-nethunter/wiki)了解下）。我掉进去的第一个坑就是nethunter对硬件和系统的要求上，求求你们刷机前先看看我下面分享的这个表格（[原链接](https://github.com/offensive-security/kali-nethunter/wiki)）。
+本文以<strong>Nexus5X</strong>为例（有一个很好的[英文指导视频](https://www.youtube.com/watch?v=XFmvn7_R9fs)在油管上，还有[官方文档](https://github.com/offensive-security/kali-nethunter/wiki)也了解下）。我掉进去的第一个坑就是nethunter对硬件和系统的要求上，求求你们刷机前先看看我下面分享的这个表格（[原链接](https://github.com/offensive-security/kali-nethunter/wiki)）。
 
-我们先看有没有自己的机型（没有的话可以去油管上查好像有的还支持奥利奥，博主专门入的二手机来玩nethunter，这种系统装上去可能手机自身的安全性也会受到影响故不建议作为日常机，虽然本身安卓机除了谷歌大厂及时发布补丁基本其他厂子没那么关心漏洞问题），再看看手机的系统合不合适（不合适要刷入要求的）据说三星刷机就不保修了，大大们自己掂量吧：
+我们先看有没有自己的机型（没有的话可以去油管上查，好像有的还支持奥利奥，博主专门入的二手机来玩nethunter，这种系统装上去可能手机自身的安全性也会受到影响故不建议作为日常机，虽然本身安卓机除了谷歌大厂及时发布补丁基本其他厂子没那么关心漏洞问题），再看看手机的系统合不合适（不合适要刷入要求的）据说三星刷机root就不保修了，大大们自己掂量吧：
 
 |                     Device                      |                   Android Version                   |                            Notes                             |
 | :---------------------------------------------: | :-------------------------------------------------: | :----------------------------------------------------------: |
@@ -50,7 +50,7 @@ tags:
 | SHIELD tablet (shieldtablet)   SHIELD tablet K1 |               **6.0.1**   **CM 13.0**               |                                                              |
 |              ZTE Axon 7 (ailsa_ii)              |                      **6.0.1**                      | [@jcadduono](https://github.com/jcadduono)'s preferred device |
 
-emmmm其实看这个感觉国外开发者们起名方式还是挺好玩的，Android系统都是甜点，像lollipop棒棒糖，据说9.0出来了叫pie，nexus的不同版本名也都是一些很有既视感的造型。
+emmmm其实看这个感觉国外开发者们起名方式还是挺好玩的，Android系统名称都是甜点，像lollipop棒棒糖，据说9.0出来了叫pie，nexus的不同版本名也都是一些很有既视感的造型。
 
 ## Ⅱ 原料下载
 
@@ -69,7 +69,7 @@ nethunter大概是在16年推出或者火起来的，所以这里面很多系统
 
 Nexus在关机状态同时长按“电源键”和“音量减小键”应该能进入fastboot mode模式，我们就能看到一个被打开的安卓小人，用音量键调整我们下一步要进入的模式。
 
-我们把它用数据线（说到数据线不得不感谢我的小伙伴蒋某(等我问问看看能不能放他友链过来)在我手机数据线快递还没送到时慷慨地随时借我乱搞😂）连上电脑，没错又要用win系统，用fastboot把twrp镜像刷入（bullhead建议用我分享的那个3.2.2的文件）：
+我们把它用数据线（说到数据线不得不感谢我的小伙伴蒋某(等我问问看看能不能放他友链过来)在我数据线快递还没送到时慷慨地随时借我乱搞😂）连上电脑，没错又要用win系统，用fastboot把twrp镜像刷入（bullhead建议用我分享的那个3.2.2的文件）：
 
 ```powershell
 fastboot flash recovery .\twrp-3.2.2-0-bullhead.img
@@ -83,13 +83,13 @@ fastboot flash recovery .\twrp-3.2.2-0-bullhead.img
 
 ①
 
-电脑端cd到要刷入的系统zip所在文件夹，然后：
+电脑端<strong>cd</strong>要刷入的系统zip所在文件夹，然后：
 
 ```powershell
 adb sideload .\bullhead-ota-mtc20f-6303e5cd.zip
 ```
 
-静待其刷完，最后reboot就好，当然了开机可能有有一堆设置等着你，不过并不麻烦。
+静待其刷完，最后reboot就好，当然了开机可能有一堆设置等着你，不过并不麻烦。
 
 ②
 
@@ -97,5 +97,21 @@ adb sideload .\bullhead-ota-mtc20f-6303e5cd.zip
 
 ## Ⅳ 解锁bootloader和root
 
+因为首次解锁bootloader会清除所有数据，所以我们放到这里说。
+
 进入系统设置->关于手机->拉到最后点击7次左右版本号进入开发者模式->返回系统设置->进入开发者选项->开启开发者模式->选择OEM解锁
+
+像刚才一样进入fastboot的界面，手机用数据线连上电脑，用命令行：
+
+```powershell
+fastboot oem unlock
+```
+
+好了，现在我们可以进行root了，还是像刚才一样进入fastboot模式，像重刷系统一样，把supersu刷入就好了。
+
+## Ⅴ 前进！nethunter龙在招手(爪)
+
+开机后，我们安装busybox，安装完成后像刷系统一样把nethunter刷入即可。
+
+enjoy :P
 
