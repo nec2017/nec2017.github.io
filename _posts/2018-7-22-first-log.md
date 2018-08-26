@@ -56,7 +56,7 @@ jekyll serve
 
 所以我们下一步要修改如下文件：
 
-* `_includes/head.html`中的所有"{{site.baseurl}}"更改为”/“表示根目录
+* `_includes/head.html`中的所有{site.baseurl}直接更改为 / 表示根目录
 
 #### ② 自定义
 
