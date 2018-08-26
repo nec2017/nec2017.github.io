@@ -17,7 +17,7 @@ tags:
 
 ### Ⅰ 必看
 
-本文以<strong>Nexus5X</strong>为例（有一个很好的[英文指导视频](https://www.youtube.com/watch?v=XFmvn7_R9fs)在油管上）。我掉进去的第一个坑就是nethunter对硬件和系统的要求上，求求你们刷机前先看看我下面分享的这个表格（[原链接](https://github.com/offensive-security/kali-nethunter/wiki)）。
+本文以<strong>Nexus5X</strong>为例（有一个很好的[英文指导视频](https://www.youtube.com/watch?v=XFmvn7_R9fs)在油管上，[官方文档](https://github.com/offensive-security/kali-nethunter/wiki)了解下）。我掉进去的第一个坑就是nethunter对硬件和系统的要求上，求求你们刷机前先看看我下面分享的这个表格（[原链接](https://github.com/offensive-security/kali-nethunter/wiki)）。
 
 我们先看有没有自己的机型（没有的话可以去油管上查好像有的还支持奥利奥，博主专门入的二手机来玩nethunter，这种系统装上去可能手机自身的安全性也会受到影响故不建议作为日常机，虽然本身安卓机除了谷歌大厂及时发布补丁基本其他厂子没那么关心漏洞问题），再看看手机的系统合不合适（不合适要刷入要求的）据说三星刷机就不保修了，大大们自己掂量吧：
 
