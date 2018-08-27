@@ -7,5 +7,5 @@ category: resources
 tags: 资源分享
 ---
 
-* [TRY HARDER_UZIMON.mp3](Kali Linux NetHunter(TRY HARDER-UZIMON).mp3)
+* [TRY HARDER_UZIMON.mp3](http://pe4eotrcd.bkt.clouddn.com/Kali%20Linux%20NetHunter.mp3)
 
