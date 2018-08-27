@@ -14,7 +14,6 @@ tags:
   <audio autoplay="autoplay">
   <source src="/resources/Kali Linux NetHunter(TRY HARDER-UZIMON).mp3" />
   </audio>
-
 ### Ⅰ 必看
 
 本文以<strong>Nexus5X</strong>为例（有一个很好的[英文指导视频](https://www.youtube.com/watch?v=XFmvn7_R9fs)在油管上，还有[官方文档](https://github.com/offensive-security/kali-nethunter/wiki)也了解下）。我掉进去的第一个坑就是nethunter对硬件和系统的要求上，求求你们刷机前先看看我下面分享的这个表格（[原链接](https://github.com/offensive-security/kali-nethunter/wiki)）。
