@@ -7,7 +7,7 @@ tags:
 - normalLife
 ---
 
-## 是上一篇博客BGM的歌词，从油管搬过来的。讲的是KALI官方推出的一种认证，想要拿到他，YOU MUST TRY HARDER。
+## 是本篇BGM的歌词，从油管搬过来的。讲的是KALI官方推出的一种认证，想要拿到他，YOU MUST TRY HARDER。
 
 -----
 
