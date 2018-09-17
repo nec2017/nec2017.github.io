@@ -22,3 +22,9 @@ category: support
 		<em>Loading...</em>
 	</div>
 </div>
+
+## 此外，支付宝扫二维码（或搜索：535453027）领红包再转给我也星。
+
+## 感谢支持
+
+![redenvelope](http://pe4eotrcd.bkt.clouddn.com/A79091695217411A30BEB93058FB673F.png)
