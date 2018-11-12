@@ -18,6 +18,10 @@ url:                 https://nec2017.github.io
 baseurl:             /
 paginate:            7
 
+# Qiniuyun-link
+temp_link:
+  link:              http://ph75xvzk7.bkt.clouddn.com
+
 # About/contact
 author:
   name:              Nancy thE Cat
