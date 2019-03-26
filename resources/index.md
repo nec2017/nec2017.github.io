@@ -8,4 +8,5 @@ tags: 资源分享
 ---
 
 * [TRY HARDER_UZIMON.mp3](http://pe4eotrcd.bkt.clouddn.com/Kali%20Linux%20NetHunter.mp3)
+* [信安学习国外网站](https://nancythecat.org/resources/2019/03/26/foreignwebs/)
 
