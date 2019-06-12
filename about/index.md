@@ -26,6 +26,12 @@ layout: page
 如果你有任何问题、评价，  
 给我发邮件叭（[send me an email](mailto:chinano1cnm@gmail.com)）。 
 
+## 订阅
+
+<a href="{{ site.url }}/atom.xml">feed/订阅</a>
+
+
+
 
 
 
