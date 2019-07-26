@@ -19,7 +19,7 @@ tags:
 
 因为这个grub引导所在的系统被清空了，于是我们就进入了grub rescue的“清爽”界面，按照1、2年前我刚接触linux系统时我会果断放弃然后重装，但手头有事要用win7啊，不能就这样godie，总觉得还能抢救一下。
 
-![screenshot1](http://psz90ejvn.bkt.clouddn.com/screenshot1.JPG)
+![screenshot1](http://pv8gr0ppd.bkt.clouddn.com/screenshot1.JPG)
 
 先百度了下，发现了一篇很好的[博客](https://blog.csdn.net/weixin_39772481/article/details/79212364)，我大致再复述一遍这个思路：
 
@@ -44,7 +44,7 @@ grub rescue> ls (hd0,msdos...)
 
 于是我刻了kali-live进去，通过U盘启动，文件管理器可以查到其他分区界面如下(手残抖了别介意)：
 
-![screeshot2](http://psz90ejvn.bkt.clouddn.com/s2.JPG)
+![screeshot2](http://pv8gr0ppd.bkt.clouddn.com/s2.JPG)
 
 同时我们也可以用自带的gparted分区工具查看，点进去发现我的/dev/sda6的boot/grub目录下本应有的<strong>grubx64.efi</strong>文件丢失刚好我在其他区有备份这个文件，便复制回去。
 

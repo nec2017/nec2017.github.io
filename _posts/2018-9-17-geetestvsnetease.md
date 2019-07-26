@@ -19,7 +19,7 @@ tags:
 
 下图是我从[极验微信公众号](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI2MDE5MTQxNg%3D%3D%26mid%3D2649690073%26idx%3D1%26sn%3Da1377223ba996ec51512dc1a22ea376c%26chksm%3Df276ca0ec5014318ab21cd4c9b875a63fdbe9d6441eadce51aed0f33451f13342296a0426df2%26mpshare%3D1%26scene%3D2%26srcid%3D0917wwWU6785p2zn7wviNxH5%26from%3Dtimeline%26ascene%3D2%26devicetype%3Dandroid-22%26version%3D26060739%26nettype%3Dcmnet%26abtest_cookie%3DBAABAAoACwASABMABAAjlx4AWZkeAGGZHgBsmR4AAAA%253D%26lang%3Dzh_CN%26pass_ticket%3Dg7qQ%252F%252BK0h3H0XSDlMU5REAYm%252Frv47QrBQFISrTp4pBnMVbg%252FdnpY5Q7hGELadJoG%26wx_header%3D1)总结的一个脑图，字丑你去怪苏菲婆(不)吧：
 
-![mind](http://psz90ejvn.bkt.clouddn.com/mind.JPG)
+![mind](http://pv8gr0ppd.bkt.clouddn.com/mind.JPG)
 
 现在发现，上面写的专利和域名被劫持的真实性有待商榷。
 
