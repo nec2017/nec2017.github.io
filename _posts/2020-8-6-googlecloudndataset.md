@@ -18,7 +18,7 @@ tags:
 
 Google Dataset顾名思义就是Google出品的数据库检索工具，链接为：[https://datasetsearch.research.google.com/](<https://datasetsearch.research.google.com/>)。几年前我在看一篇讲破解指纹识别的文章时，想着自己能不能从网上找点数据训练（虽然后面并没有实际操作，哭了我的机器学习之路什么时候才能开启啊），于是在搜索的过程中发现了这个网站。
 
-![fingerprint](http://qemn845gn.bkt.clouddn.com/dataset.JPG)
+![fingerprint](http://qemn845gn.bkt.clouddn.com/dataset.png)
 
 然后在我搜索SEP专利数据时，我发现Google自建了一个共享数据库的应用<strong>BigQuery</strong>。
 
