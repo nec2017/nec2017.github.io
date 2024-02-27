@@ -1,5 +1,5 @@
 ---
-title: 国外信安网站
+title: 信安学习的网站
 layout: page
 description: websites help learn
 category: resources
