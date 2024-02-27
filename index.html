@@ -19,18 +19,18 @@ title: 主页
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">👈向前</a>
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">👈翻翻历史</a>
   {% else %}
-    <span class="pagination-item older">👈向前</span>
+    <span class="pagination-item older">👈翻翻历史</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">向后👉</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}">看看最新👉</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">向后👉</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">看看最新👉</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">向后👉</span>
+    <span class="pagination-item newer">看看最新👉</span>
   {% endif %}
 </div>
 
