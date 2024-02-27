@@ -1,10 +1,9 @@
 ---
 title: 友链
-author: NEC
+author: Nancy
 layout: page
 description: some links of my friends
 category: links
 ---
 
-我的朋友很少.jpg  
-😭 Do u want to build a snowman? Come on let's go and play.
+Do u want to build a snowman? Come on let's go and play. 欢迎建立友情链接。
