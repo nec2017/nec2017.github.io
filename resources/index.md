@@ -1,6 +1,6 @@
 ---
 title: 资源分享
-author: NEC
+author: Nancy
 layout: page
 description: some goods
 category: resources
