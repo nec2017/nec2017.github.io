@@ -11,10 +11,10 @@ plugins: [jekyll-paginate]
 permalink:           pretty
 
 # Setup
-title:               NEC's House
-tagline:             'hack ur life'
-description:         'Geek | Crack | IPLaw'
-url:                 https://nancythecat.org
+title:               欢迎来到Nancy Zhang的个人博客
+tagline:             '努力争取，客观看待'
+description:         'IPLaw | Geek | more'
+url:                 https://nec2017.github.io
 baseurl:             /
 paginate:            7
 
@@ -25,15 +25,15 @@ temp_link:
 # About/contact
 author:
   name:              Nancy thE Cat
-  url:               https://weibo.com/u/5758919434
-  email:             chinano1cnm@gmail.com
+  url:               https://nec2017.github.io
+  email:             realnecisme@gmail.com
 
 # Custom vars
 version:             2.0
 
 # Social Media
 github:				http://github.com/nec2017
-sina:			    http://weibo.com/u/5758919434
+#sina:			    http://weibo.com/u/5758919434
 disqus:             test
 
 # Theme Author (Please don't edit this line cause of MIT LICENSE rules)
